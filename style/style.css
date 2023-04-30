@@ -12,6 +12,7 @@ body {
     background: #1F2937;
     color: #F9FAF8;
     height: fit-content;
+    border-bottom: 1px solid white;
 }
 
 ul {
@@ -58,14 +59,14 @@ ul li, .subt {
 }
 
 .s_header button {
+    font-weight: 600;
+    font-size: 18px;
     background: #3882F6;
     color: white;
     border:1px solid #3882F6;
     width: 100px;
     padding: 3px 10px;
-    border-radius: 4px;
-    font-weight: 600;
-    font-size: 18px;
+    border-radius: 4px;    
     margin: 8px 0;
 }
 
@@ -131,4 +132,40 @@ ul li, .subt {
 .author {
     font-weight: 700;
     font-size: 20px;
+}
+
+.action {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom_blue_box {
+    background: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 130px;
+    width: 800px;
+    color: #E5E7EB;
+}
+
+.bottom_blue_box button {
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    margin: 8px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.tuxt .h {
+    font-size: 25px;
+    font-weight: 700;
+    
 }
